@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_soffy_cali_so_1712669775631-pr-trigger-input-set
+  identifier: Build_soffy_cali_so_1712669775631prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_soffy_cali_so_1712669775631
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
